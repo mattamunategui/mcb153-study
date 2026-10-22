@@ -1,6 +1,6 @@
-import { HUB } from '../hub.js?v=a301ceffe9';
-import { h, put } from '../lib/render.js?v=a301ceffe9';
-import { flash } from './memorize.js?v=a301ceffe9';
+import { HUB } from '../hub.js?v=e9dd272af2';
+import { h, put } from '../lib/render.js?v=e9dd272af2';
+import { flash } from './memorize.js?v=e9dd272af2';
 
 /** All topics across focus pages (optionally for one page), with their page. */
 export function focusTopics(ctx, pageId = null) {
