@@ -1,8 +1,8 @@
 // Practice engine shared by modules, exams, the playbook and memorize-quiz; also the Practice index (#/practice).
-import { HUB } from '../hub.js?v=b2647d9ff3';
-import { h, md, mdInline, figureEl, plain, fmtTime, fill, put } from '../lib/render.js?v=b2647d9ff3';
-import * as store from '../lib/store.js?v=b2647d9ff3';
-import { setChatContext } from '../lib/chat.js?v=b2647d9ff3';
+import { HUB } from '../hub.js?v=262809decb';
+import { h, md, mdInline, figureEl, plain, fmtTime, fill, put } from '../lib/render.js?v=262809decb';
+import * as store from '../lib/store.js?v=262809decb';
+import { setChatContext } from '../lib/chat.js?v=262809decb';
 
 export const GSI_LEVEL = { 3: 'Exam question', 2: 'Emphasized', 1: 'Covered' };
 export const DIFF = { 1: 'Recall', 2: 'Apply', 3: 'Exam-hard' };
